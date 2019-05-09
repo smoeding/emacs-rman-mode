@@ -9,6 +9,9 @@ I wrote this code to have a simple major mode to code my RMAN scripts.
 
 ## Installation
 
+Copy the file `rman-mode.el` to a directory in your `load-path`. Optionally byte compile the file. Add the following code to your Emacs startup file:
+
+
 ```elisp
 (autoload 'rman-mode "rman-mode" "Major mode for RMAN files" t)
 (add-to-list 'auto-mode-alist '("\\.rman\\'" . rman-mode))
